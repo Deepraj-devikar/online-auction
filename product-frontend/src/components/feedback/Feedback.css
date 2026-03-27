@@ -1,0 +1,52 @@
+.feedback-box-outer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.feedback-box-profile-circle {
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+
+    text-align: left;
+    font: 15px Roboto;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 0.55;
+}
+
+.feedback-box-detail {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 2px;
+}
+
+.feedback-box-detail-user-name {
+    text-align: left;
+    font: 20px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+}
+
+.feedback-box-detailed-text {
+    text-align: left;
+    font: 16px Roboto;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}

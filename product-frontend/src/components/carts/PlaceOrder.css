@@ -1,0 +1,45 @@
+.cart-place-order-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 8px;
+
+    margin: 3% 4%;
+}
+
+.cart-place-order-title {
+    text-align: left;
+    font: 24px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+}
+
+.cart-place-order-title-n-location {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-place-order-location-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-self: start;
+    align-items: center;
+    gap: 4px;
+}
+
+.cart-place-order-location-item-text {
+    text-align: left;
+    font: 17px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+}
+
+.cart-place-order-make-place-order-button {
+    align-self: flex-end;
+}

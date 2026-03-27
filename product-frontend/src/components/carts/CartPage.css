@@ -1,0 +1,18 @@
+.cart-page-breadcrum-n-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 8px;
+    padding-top: 8px;
+    margin-bottom: 48px;
+}
+
+.cart-page-content {
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: stretch;
+    gap: 8px;
+}

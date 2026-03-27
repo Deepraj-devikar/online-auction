@@ -1,0 +1,21 @@
+.cart-address-selected-box {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+}
+
+.cart-address-selected-address-textarea {
+    width: 100%;
+}
+
+.cart-address-selected-city-n-state {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2%;
+}

@@ -1,0 +1,30 @@
+.signup-form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.signup-form-social-media {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-form-email-text-field, .signup-form-password-text-field, .signup-form-full-name-text-field, .signup-form-mobile-number-text-field {
+    width: 252px;
+}
+
+.signup-form-password-text-field {
+    width: 252px;
+}
+
+.signup-form-signup-btn {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,20 @@
+.footer-box {
+    height: 50px;
+    background: #2E1D1E 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.footer-copyright-text {
+    height: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+
+    text-align: left;
+    font: 15px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

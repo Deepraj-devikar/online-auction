@@ -1,0 +1,70 @@
+.cart-place-order-product {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 36px;
+}
+
+.cart-place-order-product-image {
+    width: 65px;
+    height: 85px;
+}
+
+.cart-place-order-product-detail {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-self: start;
+    align-items: start;
+    gap: 4px;
+}
+
+.cart-place-order-product-detail-book-name {
+    text-align: left;
+    font: 17px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+}
+
+.cart-place-order-product-detail-author-name {
+    text-align: left;
+    font: 12px Lato;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+}
+
+.cart-place-order-product-detail-price {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-self: start;
+    align-items: center;
+    gap: 1px;
+}
+
+.cart-place-order-product-detail-price-right {
+    text-align: left;
+    font: bold 18px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+}
+
+.cart-place-order-product-detail-price-wrong {
+    text-align: left;
+    text-decoration: line-through;
+    font: 11px Lato;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+}
+
+.cart-place-order-product-detail-cart-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    margin-top: 16px;
+}

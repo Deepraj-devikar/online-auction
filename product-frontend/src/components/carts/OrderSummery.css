@@ -1,0 +1,21 @@
+.cart-order-summery-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 8px;
+
+    margin: 3% 4%;
+}
+
+.cart-order-summery-title {
+    text-align: left;
+    font: 24px Roboto;
+    letter-spacing: 0px;
+    color: #333232;
+    opacity: 1;
+}
+
+.cart-order-summery-checkout-button {
+    align-self: flex-end;
+}

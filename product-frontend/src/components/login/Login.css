@@ -1,0 +1,30 @@
+.login-form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.login-form-social-media {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-form-email-text-field, .login-form-password-text-field {
+    width: 252px;
+}
+
+.login-form-social-media {
+    width: 100%;
+}
+
+.login-form-login-btn {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
