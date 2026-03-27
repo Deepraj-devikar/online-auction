@@ -5,6 +5,7 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 
+import routes from './routes';
 import logger, { logStream } from './config/logger';
 
 import morgan from 'morgan';
@@ -25,6 +26,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
 
+app.use(`/api/${api_version}`, routes());
 
 app.listen(port, () => {
   logger.info(`Server started at ${host}:${port}/api/${api_version}/`);
