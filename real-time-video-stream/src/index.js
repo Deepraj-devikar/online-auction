@@ -6,6 +6,11 @@ import cors from 'cors';
 import helmet from 'helmet';
 
 import routes from './routes';
+import {
+  appErrorHandler,
+  genericErrorHandler,
+  notFound
+} from './middlewares/error.middleware';
 import logger, { logStream } from './config/logger';
 
 import morgan from 'morgan';
@@ -27,6 +32,9 @@ app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
 
 app.use(`/api/${api_version}`, routes());
+app.use(appErrorHandler);
+app.use(genericErrorHandler);
+app.use(notFound);
 
 app.listen(port, () => {
   logger.info(`Server started at ${host}:${port}/api/${api_version}/`);
