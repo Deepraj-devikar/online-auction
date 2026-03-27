@@ -5,6 +5,10 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 
+import database from './config/database';
+
+import logger, { logStream } from './config/logger';
+
 const app = express();
 const host = process.env.APP_HOST;
 const port = process.env.APP_PORT;
@@ -14,6 +18,10 @@ app.use(cors());
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+app.use(morgan('combined', { stream: logStream }));
+
+database();
 
 app.listen(port, () => {
   logger.info(`Server started at ${host}:${port}/api/${api_version}/`);
