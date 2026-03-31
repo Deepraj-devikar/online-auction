@@ -1,5 +1,6 @@
 import { Schema, model } from 'mongoose';
 
+// Define the Book schema
 const bookSchema = new Schema(
   {
     description: {
